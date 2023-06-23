@@ -1,0 +1,177 @@
+.hero{
+    padding: 50px;
+    background-color: #212529;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 20px;
+    background-image: url(../../img/sushi.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 60%;
+}
+
+.title{
+    @extend %h1-custom
+}
+.sub{
+    color: #fff;
+}
+
+.hero-btn{
+
+    @extend %btn-beige
+}
+// -----------------section-1----------------
+.container-1{
+    margin: 30px;
+    background-color: $secondary-cl;
+    min-height: 400px;
+}
+
+.subtitle p{
+    color: #212529;
+    font-size: 12px;
+}
+
+.subtitle h2{
+    @extend %h2-custom-grey
+}
+
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-1{
+    background-color: #474e55;
+    height: 400px;
+    width: 350px;
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 20px;
+    
+    
+}
+
+.subtitle p{
+    color: #212529;
+    font-size: 16px;
+}
+
+.subtitle h3{
+    @extend %h2-custom-grey
+}
+
+.item-1 img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.item-1 p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 10px 20px;
+}
+
+.item-1 h3{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 20px;
+    // font-weight: normal;
+    
+}
+
+.item-1 h3{
+    margin: 0 20px;
+}
+
+.cards-container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+ 
+}
+// ------------------section-2-----------------
+.container-2{
+    padding: 30px;
+    background-color: $main-cl;
+
+}
+
+.container-chefs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.section-title{
+  @extend %title-position;
+}
+
+.section-title h2{
+    @extend %white-title;
+}
+
+.section-title p{
+    color: #fff;
+}
+
+.chefs{
+    margin: 30px;
+    height: 300px;
+    width: 80%;
+    background-color: $secondary-cl;
+    display: flex;
+
+   
+    
+    
+}
+
+.chefs-txt{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;  
+}
+
+.chefs h3, p{
+    color: $main-cl;
+}
+
+.chefs h3{
+    font-family: $title-font;
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+
+.img-chefs{
+    object-fit: cover;
+    height: 100%;
+    max-width: 200px;
+}
+
+.btn{
+    @include btn(#fff, 14px, #c33838, none, 10px 20px, 5px);
+}
+
+
+
+
+

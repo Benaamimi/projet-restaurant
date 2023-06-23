@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,100&family=Playfair+Display:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeebd0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  background-color: #212529;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #eeebd0;
+}
+
+footer {
+  background-color: #212529;
+  color: #eeebd0;
+  font-size: 14px;
+  text-transform: capitalize;
+  min-height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  padding: 50px;
+  background-color: #212529;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background-image: url(../../img/sushi.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 60%;
+}
+
+.sub {
+  color: #fff;
+}
+
+.container-1 {
+  margin: 30px;
+  background-color: #eeebd0;
+  min-height: 400px;
+}
+
+.subtitle p {
+  color: #212529;
+  font-size: 12px;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.item-1 {
+  background-color: #474e55;
+  height: 400px;
+  width: 350px;
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.subtitle p {
+  color: #212529;
+  font-size: 16px;
+}
+
+.item-1 img {
+  height: 60%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.item-1 p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 10px 20px;
+}
+
+.item-1 h3 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.item-1 h3 {
+  margin: 0 20px;
+}
+
+.cards-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container-2 {
+  padding: 30px;
+  background-color: #212529;
+}
+
+.container-chefs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title p {
+  color: #fff;
+}
+
+.chefs {
+  margin: 30px;
+  height: 300px;
+  width: 80%;
+  background-color: #eeebd0;
+  display: flex;
+}
+
+.chefs-txt {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.chefs h3, p {
+  color: #212529;
+}
+
+.chefs h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  margin-bottom: -20px;
+}
+
+.img-chefs {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  max-width: 200px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  background-color: #c33838;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.hero-btn {
+  color: #3d3a4b;
+  font-size: 14px;
+  background-color: #eeebd0;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.subtitle h2, .subtitle h3 {
+  font-family: "Playfair Display", serif;
+  color: #3d3a4b;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.section-title h2 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */

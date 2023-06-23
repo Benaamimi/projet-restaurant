@@ -1,0 +1,8 @@
+@mixin btn($cl, $font-size, $bcl, $text-decoration, $padding, $border){
+    color: $cl;
+    font-size: $font-size;
+    background-color: $bcl;
+    text-decoration: $text-decoration;
+    padding: $padding;
+    border-radius: $border;
+}
